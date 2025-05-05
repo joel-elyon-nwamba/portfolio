@@ -2,11 +2,17 @@
 <html lang="en">
     <head>
         <title>My Website</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
     </head>
     <body>
         <main>
-            <nav>
-                <p>Joel Nwamba</p>
+            <nav class="nav">
+                <p class="nav-logo">JN</p>
                 <ul class="nav-list">
                     <li class="list-items"><a href="index.html">Home</a></li>
                     <li class="list-items"><a href="about.html">About</a></li>
@@ -15,18 +21,24 @@
                     <li class="list-items"><a href="contact.html">Contact</a></li>
                 </ul>
             </nav>
+            <section class="content">
             <header>
-                <h1>Hi, I'm Joel Nwamba 🙌🏾</h1>
+                <h1 class="head-intro">Hi, I'm Joel Nwamba 🙌🏾</h1>
             </header>
-            <p>I'm a software developer, based in Toronto</p>
-            <p>A Result-Oriented Web Developer building and managing Websites and Web Applications that leads to the success of the overall product</p>
-            <footer>
-                <p>Connect with me on:</p>
-                <ul>
-                    <li><a href="https://www.linkedin.com/in/joel-nwamba/" target="_blank"><i class="fab fa-linkedin"></i> Linkedin</a></li>
-                    <li><a href="https://github.com/joel-elyon-nwamba" target="_blank"><i class="fab fa-github"></i> Github</a></li>
-                    </ul>
-            </footer>
+                <p>I'm a software developer, based in Toronto</p>
+                <p>A Result-Oriented Web Developer building and managing Websites and Web Applications that leads to the success of the overall product</p>
+                <footer class="link-container">
+                    <p>Connect with me on:</p>
+                    <p class="social-links">
+                        <a  class="link" href="https://www.linkedin.com/in/joel-nwamba/" rel="nofollow noreferrer">
+                          <img class="img-link" src="img/linkedin.png" alt="linkedin"> LinkedIn
+                        </a> &nbsp; 
+                        <a class="link" href="https://github.com/joel-elyon-nwamba" rel="nofollow noreferrer">
+                          <img class="img-link" src="img/github.png" alt="github"> Github
+                        </a>
+                      </p>
+                </footer>
+            </section>
         </main>
     </body>
     </html>
