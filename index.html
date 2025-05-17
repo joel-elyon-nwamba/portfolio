@@ -1,42 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>My Website</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="css/styles.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
-    </head>
-    <body>
-        <main>
-            <nav class="nav">
-                <p class="nav-logo">JN</p>
-                <ul class="nav-list">
-                    <li class="list-items"><a href="index.html">Home</a></li>
-                    <li class="list-items"><a href="about.html">About</a></li>
-                    <li class="list-items"><a href="skills.html">Skills</a></li>
-                    <li class="list-items"><a href="project.html">Projects</a></li>
-                    <li class="list-items"><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
-            <section class="content">
-            <header>
-                <h1 class="head-intro">Hi, I'm Joel Nwamba</h1>
-            </header>
-                <p>I'm a software developer, based in Toronto</p>
-                <p>A Result-Oriented Web Developer building and managing Websites and Web Applications that leads to the success of the overall product</p>
-                <footer class="link-container">
-                    <p>Connect with me on:</p>
-                    <p class="social-links">
-                        <a  class="link" href="https://www.linkedin.com/in/joel-nwamba/" rel="nofollow noreferrer">
-                          <img class="img-link" src="img/linkedin.png" alt="linkedin"></a> &nbsp; 
-                        <a class="link" href="https://github.com/joel-elyon-nwamba" rel="nofollow noreferrer">
-                          <img class="img-link" src="img/icons8-github.svg" alt="github"></a>
-                      </p>
-                </footer>
-            </section>
-        </main>
-    </body>
-    </html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - Your Name</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="header">
+    <h1>Joel Nwamba</h1>
+    <p class="para">Frontend Developer | JavaScript | React</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="container">
+    <section id="about">
+      <h2>About Me</h2>
+      <p>I am a frontend developer passionate about creating interactive and responsive web applications. I specialize in JavaScript and have experience with React, HTML, CSS, and more.</p>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+
+      <div class="project">
+        <h3>VibeChecker</h3>
+        <p>A web app for discovering the best bars in Toronto by vibe. Features include top picks, neighborhood sorting, and custom reviews.</p>
+      </div>
+
+      <div class="project">
+        <h3>WeatherNow</h3>
+        <p>A simple React app that fetches live weather data for any city using the OpenWeatherMap API.</p>
+      </div>
+
+      <div class="project">
+        <h3>BudgetBuddy</h3>
+        <p>Personal finance tracker built with vanilla JavaScript that helps users manage their monthly budgets and expenses.</p>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: your.email@example.com</p>
+      <p>LinkedIn: <a href="#" target="_blank">linkedin.com/in/yourname</a></p>
+      <p>GitHub: <a href="#" target="_blank">github.com/yourusername</a></p>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Your Name. All rights reserved.</p>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/typeit@8.0.3/dist/index.umd.js"></script>
+  <script src="js/index.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+</body>
+</html>
