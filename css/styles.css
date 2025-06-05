@@ -86,7 +86,16 @@ h2 {
 
 .img-one {
   width: 5%;
+}
 
+.img-two {
+  position: relative;
+  top: 4px;
+  width: 6%;
+}
+
+.social {
+gap: 20px;
 }
 
 .project:hover {
@@ -102,6 +111,14 @@ h2 {
   margin-top: 5px;
 }
 
+a {
+  text-decoration: none;
+color: #9DC08B !important; 
+}
+
+h2 {
+  color: #9DC08B;
+}
 footer {
   background-color: #1a1a1a;
   color: #ccc;
